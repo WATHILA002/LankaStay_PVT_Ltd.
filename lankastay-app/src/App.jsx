@@ -26,7 +26,7 @@ function AutoTranslate() {
 
 function App() {
   return (
-    <Router basename="/LankaStay_PVT_Ltd">
+    <Router basename={import.meta.env.BASE_URL}>
       <AutoTranslate />
       <div className="app" id="appFrame">
         <Navbar />
